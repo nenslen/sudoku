@@ -190,7 +190,6 @@ function updateDomains(squares, row, col) {
 		// Row
 		let index = squares[row][i].domain.indexOf(newValue);
 		if(index != -1 && i != col) {
-			//console.log(index);
 			squares[row][i].domain.splice(index, 1);
 		}
 
